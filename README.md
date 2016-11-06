@@ -1,23 +1,11 @@
-# Codinfox-Lanyon
+# Gestión de APIs
 
-This is a jekyll template based on [Lanyon](https://github.com/poole/lanyon). See a live demo [here](http://codinfox.github.io).
-
-**If you like this project, PLEASE give it a star.**
-
-Lanyon is an unassuming [Jekyll](http://jekyllrb.com) theme that places content first by tucking away navigation in a hidden drawer. It's based on [Poole](http://getpoole.com), the Jekyll butler.
-
-All the configurations are inside either `_config.yml` or `_config.scss`. The options are fairly straightforward. 
-
-The theme supports: 
-
-1. Theme colors: you can choose your favorite theme color
-2. Changable sidebar locations
-3. Integration of FontAwesome, MathJax, Disqus and Google Analytics
-4. and numerous improvements over original Lanyon
-
+Pruebas [blog](https://https://luzbel.github.io/codinfox-lanyon/) gestión de APIs con la plantilla Jekyll de [codinfox](https://github.com/codinfox/codinfox-lanyon)  
 
 ## License
 
-Open sourced under the [MIT license](LICENSE.md).
+Los fuentes de la plantilla Jekyll siguen la licencia del original: Open sourced under the [MIT license](LICENSE.md).
+
+El contenido de las entradas se libera bajo [Creative Commons Attribution-NonCommercial](https://creativecommons.org/licenses/by-nc/4.0/)
 
 <3
