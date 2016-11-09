@@ -1,8 +1,8 @@
 #
 # Site Info
-title: Gestión de APIs
-tagline: 'Gestión de APIs'
-description: 'Mi bitácora, donde principalmente hablo de gestión de APIs.'
+title: 'Cuaderno de bitácora de un gestor de APIs'
+tagline: 'Cuaderno de bitácora de un gestor de APIs'
+description: 'Mi cuaderno de bitácora, donde principalmente hablo de gestión de APIs.'
 baseurl: "/codinfox-lanyon"
 url: http://luzbel.github.io
 logo: '/public/logo.png'
@@ -53,9 +53,9 @@ nav:
 tag_page: '/blog/tags/'
 category_page: '/blog/categories/'
 
-hero:
-  image: /public/img/we_will_be_giants_by_yalestewart.jpg
-  caption: Original Artwork &copy; <a href="http://yalestewart.deviantart.com/art/We-Will-Be-Giants-370176475">Yale Stewart</a>
+home:
+  image: /public/img/Luzbel_Retiro.512px.JPG
+  caption: Original by Magnificus (Own work) [<a href="http://www.gnu.org/copyleft/fdl.html">GFDL</a> or <a href="http://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>], <a href="https://commons.wikimedia.org/wiki/File%3ALuzbel_Retiro.JPG">via Wikimedia Commons</a>
 
 # Puglins
 mathjax: true # whether support mathjax
