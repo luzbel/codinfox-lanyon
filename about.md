@@ -1,30 +1,13 @@
 ---
 layout: page
 title: About
+published: true
 ---
+Más de **16 años de experiencia**,7 de ellos como jefe de proyectos, en una multinacional de las tecnologías de la información trabajando principalmente en los sectores de banca, telecomunicación e industria.
+
 
 <p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+  Actualmente estoy centrado en la **gestión de APIs** y en la economía que se genera alrededor de ellas.
+</p> 
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
-
-There are currently two themes built on Poole:
-
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
-
-Learn more and contribute on [GitHub](https://github.com/poole).
-
-## Setup
-
-Some fun facts about the setup of this project include:
-
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+He participado en la consultoría estratégica al respecto en uno de los principales bancos de España y en el posterior proceso de selección de la solución que mejor se adaptaba a los requisitos y necesidades de esa organización. Todo ello, junto a varias pruebas de concepto en otros clientes, me ha permitido dominar el producto de IBM y familiarizarme con los productos de WSO2 y CA Layer7. En menor medida, conozco los aspectos básico de otros productos: Axway, Mulesoft,...  y los gateways Kong (Mashape) y Tyk.
