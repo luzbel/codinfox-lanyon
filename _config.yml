@@ -1,7 +1,8 @@
 #
 # Site Info
 title: 'Cuaderno de bitácora de un gestor de APIs'
-tagline: 'donde principalmente hablo de, ¡oh sorpresa!, gestión de APIs'
+tagline: 'Cuaderno de bitácora de un gestor de APIs'
+#tagline: 'donde principalmente hablo de, ¡oh sorpresa!, gestión de APIs'
 description: 'Mi cuaderno de bitácora, donde principalmente hablo de gestión de APIs.'
 baseurl: "/codinfox-lanyon"
 url: http://luzbel.github.io
