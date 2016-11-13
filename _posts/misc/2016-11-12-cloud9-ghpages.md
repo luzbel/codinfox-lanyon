@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Jekyll, gh-pages y Cloud9"
-tags: prueba Jekyll Cloud9
-categories: prueba blog
+tags: Jekyll Cloud9 gh-pages
+categories: misc
 ---
 
 Animado por esta estupenda [Introducción a Jekyll](http://juanjosalvador.es/presentaciones/jekyll.html#/), he estado probando a organizar algo más mis publicaciones. 
@@ -29,7 +29,6 @@ Aquí aprendí a establecer un 'Gemfile' específico para gh-pages y no depender
 
 y llegado a la siguiente configuración y pasos
 
-
 * Fork de [codinfox-lanyon](https://github.com/codinfox/codinfox-lanyon), una modificación de [lanyon](https://github.com/poole/lanyon) un tema muy popular en Jekyll, pero con soporte a categorías y etiquetas
 * Creación de un nuevo espacio de trabajo en Cloud9
   * He partido de una plantilla en blanco, ya que la de Ruby parece cargada para lo que necesito y lleva una configuración de ejecución y un esqueleto de aplicación que no necesito 
@@ -52,7 +51,10 @@ baseurl: ""
 {% endhighlight %}
 
 
-Si tienes la cuenta de GitHub asociada a la de Cloud9
+# Variante
+
+Si tienes la cuenta de GitHub asociada a la de Cloud9, puedes crear el nuevo espacio de trabajo desde tu repositorio en GitHub
+
 * Fork de [codinfox-lanyon](https://github.com/codinfox/codinfox-lanyon), una modificación de [lanyon](https://github.com/poole/lanyon) un tema muy popular en Jekyll, pero con soporte a categorías y etiquetas
 * Ir a tus repositorios en Cloud9
   * Clonar el repositorio codinfox-lanyon que acabas de crear en GitHub
@@ -72,7 +74,13 @@ baseurl: ""
 ~/workspace (gh-pages) $ bundle exec jekyll serve --port $PORT --host $IP --config _config.yml,_cloud9_config.yml 
 {% endhighlight %}
 
-
-
 Siguiendo la recomendación, para no tener que acordarse del comando cada vez, genero una configuración de ejecución en Cloud9
-* 
+
+# Puntos pendientes
+
+1. Tengo que resolver que hacer con los ficheros Gemfile, Gemfile.lock y _cloud9_config.yml, ya que todavía dudo de sin incluirlos en el .gitignore o incluirlos en el repositorio.
+2. Si se clona directamente la página en el raíz del workspace, Jekyll se encuentra constantemente regenerado los ficheros aunque no se modifique ningún fichero. Quizás sean los temporales de vi.
+3. Tener una alternativa local, posiblemente con Docker, para cuando quiera editar sin estar conectado.
+4. Valorar si interesa tener [ungit](https://github.com/FredrikNoren/ungit) instalado para no pelearme con la línea de comandos.
+
+

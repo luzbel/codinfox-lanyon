@@ -1,7 +1,7 @@
 ---
 ---
-
 <?xml version="1.0" encoding="utf-8"?>
+{% assign platform = page.title | downcase %}
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>{{ site.title }}</title>
@@ -15,6 +15,7 @@
  </author>
 
  {% for post in site.posts %}
+   {% if post.share contains platform %} 
  <entry>
    <title>{{ post.title }}</title>
    <link href="{{ site.url }}{{ site.baseurl }}{{ post.url }}"/>
@@ -22,6 +23,7 @@
    <id>{{ site.url }}{{ site.baseurl }}{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
+   {% endif %}
  {% endfor %}
 
 </feed>

@@ -20,7 +20,8 @@ title: Blog
     {% endif %}
 
     <article>
-      {{ post.excerpt | markdownify }}
+      <!-- {{ post.excerpt | markdownify }} -->
+      {{ post.content | truncatewords: site.excerpt_length | markdownify }}
     <article>
     <div class="post-more">
       {% if site.disqus_short_name %}

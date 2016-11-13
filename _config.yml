@@ -57,6 +57,9 @@ category_page: '/blog/categories/'
 home:
   image: /public/img/Luzbel_Retiro.512px.JPG
   caption: Original by Magnificus (Own work) [<a href="http://www.gnu.org/copyleft/fdl.html">GFDL</a> or <a href="http://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>], <a href="https://commons.wikimedia.org/wiki/File%3ALuzbel_Retiro.JPG">via Wikimedia Commons</a>
+ 
+# como alternativa a excerpt, mientras no genera bien los emojis 
+excerpt_length: 100
 
 # Puglins
 mathjax: true # whether support mathjax
@@ -65,3 +68,6 @@ google_analytics_token:
 #disqus_short_name: 'your_short_name' # leave blank if you don't want disqus
 disqus_short_name: 
 
+# emoji
+gems:
+  - jemoji
